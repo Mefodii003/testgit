@@ -6,7 +6,7 @@ class PiTri {
             return;
         }
         if(args.length == 1){ //вывести N троек
-            int N = Integer.parseInt(args[0]);
+            int N = Integer.parseInt(args[0]) ;
             int a = 1;
             int i = 0;
             while (i < N && a < 1000){
@@ -31,7 +31,7 @@ class PiTri {
             if(checkTriple(a, b, c)){
                 System.out.println(a + ", "+ b + ", "+ c + " — это настоящая пифагорова тройка!");
             } else {
-                System.out.println("Эти числа не являются пифагоровой тройкой");
+                System.out.println("Эти числаляются пифагоровой тройкой");
             }
         }
     }
